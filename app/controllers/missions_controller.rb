@@ -59,7 +59,7 @@ class MissionsController < ApplicationController
 
     def post_params2
         # lazm tbaath kol shy fl update 
-        params.permit(:title, :description, :duration, :beginingDate,:contrat,:completed,:postulated,:filepath,:client_id,:freelancer_id,:category_id )
+        params.permit(:title, :description, :duration, :beginingDate,:client_id,:freelancer_id )
     end
 
     def set_post
